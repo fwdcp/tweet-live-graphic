@@ -1,0 +1,29 @@
+#tweetfeature {
+  position: absolute;
+  bottom: 0;
+  left: -480px;
+  width: 480px;
+}
+
+#tweetfeature-title {
+  background-color: #55acee;
+  font-family: 'Open Sans';
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 30px;
+  color: #f4f4f5;
+}
+
+#tweetfeature-tweet-container {
+  background-color: white;
+  height: 0;
+  overflow: hidden;
+}
+
+#tweetfeature-tweet-container.visible {
+  height: auto;
+}
+
+#tweetfeature-tweet-container.invisible {
+  height: 0;
+}

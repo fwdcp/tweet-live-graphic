@@ -1,0 +1,13 @@
+{
+  "name": "tweetfeature",
+  "version": "0.0.1",
+  "homepage": "http://fwdcp.net/",
+  "authors": [
+    "thesupremecommander <thesupremecmdr@gmail.com>"
+  ],
+  "description": "simple tweet feature method",
+  "resolutions": [
+    "1080p"
+  ],
+  "license": "MIT"
+}
