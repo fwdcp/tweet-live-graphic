@@ -15,7 +15,18 @@ $(document).ready(function () {
     });
 
     $('#tweetfeature-show').click(function() {
-        nodecg.sendMessage('tweetfeatureShow');
+        $.getJSON('https://api.twitter.com/1/statuses/oembed.json?callback=?', {
+            url: $('#tweetfeature-tweet').val(),
+            maxwidth: 450,
+            align: 'center'
+        }, function(data) {
+            if (data.html) {
+                nodecg.sendMessage('tweetfeatureChangeTweet', {
+                    tweet: data.html
+                });
+                nodecg.sendMessage('tweetfeatureShow');
+            }
+        });
     });
 
     $('#tweetfeature-hide').click(function() {
@@ -23,7 +34,20 @@ $(document).ready(function () {
     });
 
     $('#tweetfeature-display-timed').click(function() {
-        nodecg.sendMessage('tweetfeatureDisplayTimed', {time: $('#tweetfeature-time').val()});
+        $.getJSON('https://api.twitter.com/1/statuses/oembed.json?callback=?', {
+            url: $('#tweetfeature-tweet').val(),
+            maxwidth: 450,
+            align: 'center'
+        }, function(data) {
+            if (data.html) {
+                nodecg.sendMessage('tweetfeatureChangeTweet', {
+                    tweet: data.html
+                });
+                nodecg.sendMessage('tweetfeatureDisplayTimed', {
+                    time: $('#tweetfeature-time').val()
+                });
+            }
+        });
     });
 
 });
