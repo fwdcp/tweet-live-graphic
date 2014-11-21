@@ -1,14 +1,14 @@
 {
   "name": "tweetfeature",
-  "version": "0.0.1",
-  "nodecgDependency": "~0.0.1",
+  "version": "0.0.2",
+  "nodecgDependency": "~0.2.1",
   "homepage": "http://fwdcp.net/",
   "authors": [
     "thesupremecommander <thesupremecmdr@gmail.com>"
   ],
   "description": "simple tweet feature method",
   "resolutions": [
-    "1080p"
+    "720p"
   ],
   "license": "MIT"
 }

@@ -1,5 +1,4 @@
 $(document).on('ncgReady', function () {
-
     nodecg.listenFor('tweetfeatureChangeTweet', changeTweet);
     nodecg.listenFor('tweetfeatureShow', showTweet);
     nodecg.listenFor('tweetfeatureHide', hideTweet);
@@ -32,4 +31,3 @@ $(document).on('ncgReady', function () {
     }
 
 });
-
