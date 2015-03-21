@@ -1,5 +1,4 @@
 $(document).ready(function () {
-
     $('#tweetfeature-change-tweet').click(function() {
         $.getJSON('https://api.twitter.com/1/statuses/oembed.json?callback=?', {
             url: $('#tweetfeature-tweet').val(),
@@ -49,5 +48,4 @@ $(document).ready(function () {
             }
         });
     });
-
 });

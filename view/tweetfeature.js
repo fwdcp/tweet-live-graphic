@@ -1,4 +1,4 @@
-$(document).on('ncgReady', function () {
+$(document).ready(function () {
     nodecg.listenFor('tweetfeatureChangeTweet', changeTweet);
     nodecg.listenFor('tweetfeatureShow', showTweet);
     nodecg.listenFor('tweetfeatureHide', hideTweet);

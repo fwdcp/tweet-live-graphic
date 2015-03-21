@@ -1,7 +1,7 @@
 {
   "name": "tweetfeature",
   "version": "0.0.2",
-  "nodecgDependency": "~0.2.1",
+  "nodecgDependency": "^0.5",
   "homepage": "http://fwdcp.net/",
   "authors": [
     "thesupremecommander <thesupremecmdr@gmail.com>"
