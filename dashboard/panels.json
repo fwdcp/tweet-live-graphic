@@ -3,6 +3,7 @@
 		"name": "tweet-live-graphic",
 		"title": "Tweet Feature",
 		"width": 2,
-		"file": "panel.html"
+		"file": "panel.html",
+		"faIcon": "fa-twitter"
 	}
 ]
