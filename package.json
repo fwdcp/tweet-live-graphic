@@ -1,0 +1,29 @@
+{
+  "name": "tweet-live-graphic",
+  "version": "0.0.3",
+  "homepage": "http://fwdcp.net/",
+  "authors": [
+    "thesupremecommander <thesupremecmdr@gmail.com>"
+  ],
+  "description": "simple tweet feature method",
+  "resolutions": [
+    "720p"
+  ],
+  "license": "MIT",
+  "nodecg": {
+        "compatibleRange": "~0.7.0",
+        "dashboardPanels": [{
+                "name": "tweet-live-graphic",
+                "title": "Tweet Feature",
+                "width": 2,
+                "file": "panel.html",
+                "faIcon": "fa-twitter"
+        }],
+        "graphics": [{
+            "file": "index.html",
+            "width": 1280,
+            "height": 720,
+            "singleInstance": false
+        }]
+    }
+}
